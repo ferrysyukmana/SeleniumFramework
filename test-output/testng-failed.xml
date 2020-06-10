@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TEST Drop Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Drop Suite(failed)">
+    <classes>
+      <class name="account.settingAccount">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="ACCN_01"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- account.settingAccount -->
+      <class name="download.downloadEmail">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="DWLD_02"/>
+          <include name="DWLD_03"/>
+          <include name="setUpTest"/>
+          <include name="DWLD_01"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- download.downloadEmail -->
+    </classes>
+  </test> <!-- Test Drop Suite(failed) -->
+</suite> <!-- Failed suite [TEST Drop Suite] -->

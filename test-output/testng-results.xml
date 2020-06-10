@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-20T17:15:49 WIB" name="TEST Drop Suite" finished-at="2020-05-20T17:18:34 WIB" duration-ms="165473">
+    <groups>
+    </groups>
+    <test started-at="2020-05-20T17:15:49 WIB" name="Test Drop Suite" finished-at="2020-05-20T17:18:34 WIB" duration-ms="165473">
+      <class name="download.downloadEmail">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:download.downloadEmail@661972b0]" started-at="2020-05-20T17:15:49 WIB" name="setUpTest" finished-at="2020-05-20T17:15:49 WIB" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:download.downloadEmail@661972b0]" started-at="2020-05-20T17:17:18 WIB" name="setUp" finished-at="2020-05-20T17:17:18 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DWLD_01()[pri:1, instance:download.downloadEmail@661972b0]" started-at="2020-05-20T17:17:18 WIB" name="DWLD_01" finished-at="2020-05-20T17:17:40 WIB" duration-ms="22415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DWLD_01 -->
+        <test-method signature="DWLD_02()[pri:2, instance:download.downloadEmail@661972b0]" started-at="2020-05-20T17:17:40 WIB" name="DWLD_02" finished-at="2020-05-20T17:18:12 WIB" duration-ms="31966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DWLD_02 -->
+        <test-method signature="DWLD_03()[pri:3, instance:download.downloadEmail@661972b0]" started-at="2020-05-20T17:18:12 WIB" name="DWLD_03" finished-at="2020-05-20T17:18:34 WIB" duration-ms="21426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DWLD_03 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:download.downloadEmail@661972b0]" started-at="2020-05-20T17:18:34 WIB" name="tearDownTest" finished-at="2020-05-20T17:18:34 WIB" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:download.downloadEmail@661972b0]" started-at="2020-05-20T17:18:34 WIB" name="tearDown" finished-at="2020-05-20T17:18:35 WIB" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- download.downloadEmail -->
+      <class name="account.settingAccount">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:account.settingAccount@3bb9a3ff]" started-at="2020-05-20T17:15:49 WIB" name="setUpTest" finished-at="2020-05-20T17:15:49 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:account.settingAccount@3bb9a3ff]" started-at="2020-05-20T17:16:48 WIB" name="setUp" finished-at="2020-05-20T17:16:48 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ACCN_01()[pri:1, instance:account.settingAccount@3bb9a3ff]" started-at="2020-05-20T17:16:48 WIB" name="ACCN_01" finished-at="2020-05-20T17:17:18 WIB" duration-ms="29509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACCN_01 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:account.settingAccount@3bb9a3ff]" started-at="2020-05-20T17:18:34 WIB" name="tearDownTest" finished-at="2020-05-20T17:18:34 WIB" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:account.settingAccount@3bb9a3ff]" started-at="2020-05-20T17:18:35 WIB" name="tearDown" finished-at="2020-05-20T17:18:35 WIB" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- account.settingAccount -->
+      <class name="login.loginTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:15:49 WIB" name="setUpTest" finished-at="2020-05-20T17:15:49 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:15:49 WIB" name="setUp" finished-at="2020-05-20T17:15:49 WIB" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LG_01()[pri:1, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:15:49 WIB" name="LG_01" finished-at="2020-05-20T17:16:07 WIB" duration-ms="17920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LG_01 -->
+        <test-method signature="LG_02()[pri:2, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:16:07 WIB" name="LG_02" finished-at="2020-05-20T17:16:17 WIB" duration-ms="10512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LG_02 -->
+        <test-method signature="LG_03()[pri:3, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:16:17 WIB" name="LG_03" finished-at="2020-05-20T17:16:33 WIB" duration-ms="15613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LG_03 -->
+        <test-method signature="LG_04()[pri:4, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:16:33 WIB" name="LG_04" finished-at="2020-05-20T17:16:48 WIB" duration-ms="15538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LG_04 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:18:34 WIB" name="tearDownTest" finished-at="2020-05-20T17:18:34 WIB" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.loginTest@7c729a55]" started-at="2020-05-20T17:18:35 WIB" name="tearDown" finished-at="2020-05-20T17:18:35 WIB" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.loginTest -->
+    </test> <!-- Test Drop Suite -->
+  </suite> <!-- TEST Drop Suite -->
+</testng-results>
